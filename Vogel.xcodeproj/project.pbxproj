@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B9062221E146E3E0065515F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9062211E146E3E0065515F /* AppDelegate.swift */; };
+		7B9062241E146E3E0065515F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7B9062231E146E3E0065515F /* GameScene.sks */; };
+		7B9062261E146E3E0065515F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7B9062251E146E3E0065515F /* Actions.sks */; };
+		7B9062281E146E3E0065515F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9062271E146E3E0065515F /* GameScene.swift */; };
+		7B90622A1E146E3E0065515F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9062291E146E3E0065515F /* GameViewController.swift */; };
+		7B90622D1E146E3E0065515F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B90622B1E146E3E0065515F /* Main.storyboard */; };
+		7B9062321E146E3E0065515F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9062301E146E3E0065515F /* LaunchScreen.storyboard */; };
+		7B90623D1E146E3E0065515F /* VogelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B90623C1E146E3E0065515F /* VogelTests.swift */; };
+		7B9062481E146E3E0065515F /* VogelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9062471E146E3E0065515F /* VogelUITests.swift */; };
+		7B90625F1E1490D20065515F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B90622E1E146E3E0065515F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B9062391E146E3E0065515F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9062161E146E3E0065515F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B90621D1E146E3E0065515F;
+			remoteInfo = Vogel;
+		};
+		7B9062441E146E3E0065515F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B9062161E146E3E0065515F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B90621D1E146E3E0065515F;
+			remoteInfo = Vogel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B90621E1E146E3E0065515F /* Vogel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vogel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9062211E146E3E0065515F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B9062231E146E3E0065515F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7B9062251E146E3E0065515F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7B9062271E146E3E0065515F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7B9062291E146E3E0065515F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7B90622C1E146E3E0065515F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B90622E1E146E3E0065515F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B9062311E146E3E0065515F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B9062331E146E3E0065515F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B9062381E146E3E0065515F /* VogelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B90623C1E146E3E0065515F /* VogelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogelTests.swift; sourceTree = "<group>"; };
+		7B90623E1E146E3E0065515F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B9062431E146E3E0065515F /* VogelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9062471E146E3E0065515F /* VogelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogelUITests.swift; sourceTree = "<group>"; };
+		7B9062491E146E3E0065515F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B90621B1E146E3E0065515F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9062351E146E3E0065515F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9062401E146E3E0065515F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9062151E146E3E0065515F = {
+			isa = PBXGroup;
+			children = (
+				7B9062201E146E3E0065515F /* Vogel */,
+				7B90623B1E146E3E0065515F /* VogelTests */,
+				7B9062461E146E3E0065515F /* VogelUITests */,
+				7B90621F1E146E3E0065515F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B90621F1E146E3E0065515F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B90621E1E146E3E0065515F /* Vogel.app */,
+				7B9062381E146E3E0065515F /* VogelTests.xctest */,
+				7B9062431E146E3E0065515F /* VogelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B9062201E146E3E0065515F /* Vogel */ = {
+			isa = PBXGroup;
+			children = (
+				7B9062211E146E3E0065515F /* AppDelegate.swift */,
+				7B9062231E146E3E0065515F /* GameScene.sks */,
+				7B9062251E146E3E0065515F /* Actions.sks */,
+				7B9062271E146E3E0065515F /* GameScene.swift */,
+				7B9062291E146E3E0065515F /* GameViewController.swift */,
+				7B90622B1E146E3E0065515F /* Main.storyboard */,
+				7B90622E1E146E3E0065515F /* Assets.xcassets */,
+				7B9062301E146E3E0065515F /* LaunchScreen.storyboard */,
+				7B9062331E146E3E0065515F /* Info.plist */,
+			);
+			path = Vogel;
+			sourceTree = "<group>";
+		};
+		7B90623B1E146E3E0065515F /* VogelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B90623C1E146E3E0065515F /* VogelTests.swift */,
+				7B90623E1E146E3E0065515F /* Info.plist */,
+			);
+			path = VogelTests;
+			sourceTree = "<group>";
+		};
+		7B9062461E146E3E0065515F /* VogelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B9062471E146E3E0065515F /* VogelUITests.swift */,
+				7B9062491E146E3E0065515F /* Info.plist */,
+			);
+			path = VogelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B90621D1E146E3E0065515F /* Vogel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B90624C1E146E3E0065515F /* Build configuration list for PBXNativeTarget "Vogel" */;
+			buildPhases = (
+				7B90621A1E146E3E0065515F /* Sources */,
+				7B90621B1E146E3E0065515F /* Frameworks */,
+				7B90621C1E146E3E0065515F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vogel;
+			productName = Vogel;
+			productReference = 7B90621E1E146E3E0065515F /* Vogel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B9062371E146E3E0065515F /* VogelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B90624F1E146E3E0065515F /* Build configuration list for PBXNativeTarget "VogelTests" */;
+			buildPhases = (
+				7B9062341E146E3E0065515F /* Sources */,
+				7B9062351E146E3E0065515F /* Frameworks */,
+				7B9062361E146E3E0065515F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B90623A1E146E3E0065515F /* PBXTargetDependency */,
+			);
+			name = VogelTests;
+			productName = VogelTests;
+			productReference = 7B9062381E146E3E0065515F /* VogelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B9062421E146E3E0065515F /* VogelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B9062521E146E3E0065515F /* Build configuration list for PBXNativeTarget "VogelUITests" */;
+			buildPhases = (
+				7B90623F1E146E3E0065515F /* Sources */,
+				7B9062401E146E3E0065515F /* Frameworks */,
+				7B9062411E146E3E0065515F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B9062451E146E3E0065515F /* PBXTargetDependency */,
+			);
+			name = VogelUITests;
+			productName = VogelUITests;
+			productReference = 7B9062431E146E3E0065515F /* VogelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B9062161E146E3E0065515F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "raman maharjan";
+				TargetAttributes = {
+					7B90621D1E146E3E0065515F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7B9062371E146E3E0065515F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B90621D1E146E3E0065515F;
+					};
+					7B9062421E146E3E0065515F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B90621D1E146E3E0065515F;
+					};
+				};
+			};
+			buildConfigurationList = 7B9062191E146E3E0065515F /* Build configuration list for PBXProject "Vogel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B9062151E146E3E0065515F;
+			productRefGroup = 7B90621F1E146E3E0065515F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B90621D1E146E3E0065515F /* Vogel */,
+				7B9062371E146E3E0065515F /* VogelTests */,
+				7B9062421E146E3E0065515F /* VogelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B90621C1E146E3E0065515F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B90622D1E146E3E0065515F /* Main.storyboard in Resources */,
+				7B9062241E146E3E0065515F /* GameScene.sks in Resources */,
+				7B9062321E146E3E0065515F /* LaunchScreen.storyboard in Resources */,
+				7B9062261E146E3E0065515F /* Actions.sks in Resources */,
+				7B90625F1E1490D20065515F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9062361E146E3E0065515F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9062411E146E3E0065515F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B90621A1E146E3E0065515F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9062281E146E3E0065515F /* GameScene.swift in Sources */,
+				7B90622A1E146E3E0065515F /* GameViewController.swift in Sources */,
+				7B9062221E146E3E0065515F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B9062341E146E3E0065515F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B90623D1E146E3E0065515F /* VogelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B90623F1E146E3E0065515F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9062481E146E3E0065515F /* VogelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B90623A1E146E3E0065515F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B90621D1E146E3E0065515F /* Vogel */;
+			targetProxy = 7B9062391E146E3E0065515F /* PBXContainerItemProxy */;
+		};
+		7B9062451E146E3E0065515F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B90621D1E146E3E0065515F /* Vogel */;
+			targetProxy = 7B9062441E146E3E0065515F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B90622B1E146E3E0065515F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B90622C1E146E3E0065515F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B9062301E146E3E0065515F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B9062311E146E3E0065515F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B90624A1E146E3E0065515F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B90624B1E146E3E0065515F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B90624D1E146E3E0065515F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Vogel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.Vogel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7B90624E1E146E3E0065515F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Vogel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.Vogel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7B9062501E146E3E0065515F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VogelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.VogelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vogel.app/Vogel";
+			};
+			name = Debug;
+		};
+		7B9062511E146E3E0065515F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VogelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.VogelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vogel.app/Vogel";
+			};
+			name = Release;
+		};
+		7B9062531E146E3E0065515F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VogelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.VogelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vogel;
+			};
+			name = Debug;
+		};
+		7B9062541E146E3E0065515F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VogelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vogel.VogelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vogel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B9062191E146E3E0065515F /* Build configuration list for PBXProject "Vogel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B90624A1E146E3E0065515F /* Debug */,
+				7B90624B1E146E3E0065515F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B90624C1E146E3E0065515F /* Build configuration list for PBXNativeTarget "Vogel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B90624D1E146E3E0065515F /* Debug */,
+				7B90624E1E146E3E0065515F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B90624F1E146E3E0065515F /* Build configuration list for PBXNativeTarget "VogelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9062501E146E3E0065515F /* Debug */,
+				7B9062511E146E3E0065515F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B9062521E146E3E0065515F /* Build configuration list for PBXNativeTarget "VogelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9062531E146E3E0065515F /* Debug */,
+				7B9062541E146E3E0065515F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B9062161E146E3E0065515F /* Project object */;
+}
